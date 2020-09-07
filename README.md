@@ -11,6 +11,7 @@ Here is all the writeup's for all the rooms i have completed.
 - Mount the kali linux file as the hdd, remove the other one
 - Launch the machine
 - Username:Password kali:kali
+
 Remember to connect to the THM vpn.
 
 ##### You can find the rooms at http://tryhackme.com
