@@ -57,7 +57,7 @@ So maybe Base58 encoded?
 !#th3h00d
 ```
 
-###5 what is the file name with SSH password?
+### #5 what is the file name with SSH password?
 
 Trying to logg into the ftp server using "The code word":
 ```
