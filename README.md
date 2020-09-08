@@ -12,6 +12,11 @@ Here is all the writeup's for all the rooms i have completed.
 - Launch the machine
 - Username:Password kali:kali
 
-Remember to connect to the THM vpn.
+## Connect to the vpn
+- Download the configuration file [here](https://tryhackme.com/access)
+- Open the terminal
+```
+Sudo openvpn YourUsername.ovpn
+```
 
 ##### You can find the rooms at http://tryhackme.com
