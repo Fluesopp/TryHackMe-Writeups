@@ -60,8 +60,13 @@ ssh mitch@$ip -p 2222
 ```
 
 ## #7 What's the user flag?
+```
+cd
+cat user.txt
+```
+`
 G00d j0b, keep up!
-
+`
 ## #8 Is there any other user in the home directory? What's its name?
 Start with stabelising the shell
 ```
