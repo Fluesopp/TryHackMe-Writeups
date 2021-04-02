@@ -90,7 +90,7 @@ G00d j0b, keep up!
 `
 
 ## #8 Is there any other user in the home directory? What's its name?
-Start with stabelising the shell
+Start with stabilizing the shell
 ```
 python -c "import pty; pty.spawn('/bin/bash')" 
 ```
@@ -129,7 +129,7 @@ vim
 `
 
 ## #10 What's the root flag?
-Stabelice the shell after getting root
+Stabilize the shell after getting root
 ```
 python -c "import pty; pty.spawn('/bin/bash')"
 ```
